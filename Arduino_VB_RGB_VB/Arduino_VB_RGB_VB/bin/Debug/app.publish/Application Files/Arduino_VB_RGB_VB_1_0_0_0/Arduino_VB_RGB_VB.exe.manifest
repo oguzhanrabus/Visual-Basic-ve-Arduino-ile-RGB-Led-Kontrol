@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Arduino_VB_RGB_VB.exe" version="1.0.0.0" publicKeyToken="2262f2715827cc9a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Arduino_VB_RGB_VB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Arduino_VB_RGB_VB.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Arduino_VB_RGB_VB.exe" size="80360">
+      <assemblyIdentity name="Arduino_VB_RGB_VB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZDI7479TR2EjjcyiBn0QOnn9fy7iTfLnNFroRgTHzFg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Arduino_VB_RGB_VB.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=KASMIRHALI\orabus" issuerKeyHash="d0f935057e48d060d16928a6c5a594769db4b1be" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BE3YK3ijDGeA8AFFR/v+bJXTw1AhULnTLQ+9pkeNjXs=</DigestValue></Reference></SignedInfo><SignatureValue>OYfmx0vMflZgYg4+JyuL4kaiYWVbgtLW+pk8qrDOvn89Bs9WsUuv0Io7pzc/Mp/Wrf8APG8JQeh0VX8eh4T4LDu/fRpIz4WCR0KDkNldWucq/KyJcEByeSkNJ+/tHYWko+Y0BtfELAEvdq/ANQpT8SX6eSsjFtLr+BUrcaTYTEY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nmgmpJa0yA6SOmtmnDLStdJkT3QlwFzovBxBdwiikFajgTn4oPoOOgoYAni6cQw8YT7sztg7VSHCFjyG2q/tsHDyqGF3HmLEWJ5Mm8ctFof5vVeTIRblhxRIyaOe+9lxRmvtQY39Av8xExUsAdr9hV3nvFEFLlBQPAZQ+UOT7u8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7b8d8d47a6bd0f2dd3b9502150c3d3956cfefb474501f080670ca3782bd84d04" Description="" Url=""><as:assemblyIdentity name="Arduino_VB_RGB_VB.exe" version="1.0.0.0" publicKeyToken="2262f2715827cc9a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KASMIRHALI\orabus</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2s1YYIMQhzhl+CYBf1SLi/HCbGXgLXsVqQBvmVcZJnA=</DigestValue></Reference></SignedInfo><SignatureValue>Pmw096faIQuYkp+CR3bMDsxFNVkj9kxECaR7eTNHARzqCXy427sUKIR6/gATbSjy7MBv/9pDaXsmx+Q08vsvLKVxciIXb4aJjTWPpGejDwCScsSLNDwkDU3ISHDjIzLEjVrF/sE9b1C99DPApKSLQLF6gC97VyK4E7OSTpfaFug=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nmgmpJa0yA6SOmtmnDLStdJkT3QlwFzovBxBdwiikFajgTn4oPoOOgoYAni6cQw8YT7sztg7VSHCFjyG2q/tsHDyqGF3HmLEWJ5Mm8ctFof5vVeTIRblhxRIyaOe+9lxRmvtQY39Av8xExUsAdr9hV3nvFEFLlBQPAZQ+UOT7u8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQOWTBiHDG/ItAObMoNqnFVjANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIASwBBAFMATQBJAFIASABBAEwASQBcAG8AcgBhAGIAdQBzMB4XDTE5MDkxNjE0NTYzMFoXDTIwMDkxNTIwNTYzMFowLTErMCkGA1UEAx4iAEsAQQBTAE0ASQBSAEgAQQBMAEkAXABvAHIAYQBiAHUAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAnmgmpJa0yA6SOmtmnDLStdJkT3QlwFzovBxBdwiikFajgTn4oPoOOgoYAni6cQw8YT7sztg7VSHCFjyG2q/tsHDyqGF3HmLEWJ5Mm8ctFof5vVeTIRblhxRIyaOe+9lxRmvtQY39Av8xExUsAdr9hV3nvFEFLlBQPAZQ+UOT7u8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBYEfFAbCMNYB23AWrOq71781ZoA8zbFrex0aq5S6QXUhNAOR9q4gsWdopLC12u94fKmCUleroDIL0nDirZTMN05Cko1YLU2wLopZKLcizcTNi/o+nDRPsG9jUzHqg2rcXxFqLl61nzpA5U6F0JhZxXH+Ma/91N7TUXD3Fa5jO5YQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
